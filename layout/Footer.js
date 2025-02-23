@@ -180,7 +180,9 @@ const DefaultFooter = () => {
                       <li>
                       1:00 PM to 11:00 PM  <span>7 days </span>
                       </li>
-                      
+                      <li>
+                      Sunday <span>10am - 9pm</span>
+                      </li>
                     </ul>
                     <div className="any-question mt-20">
                       <h5>Have any questions?</h5>
@@ -365,11 +367,13 @@ const Footer2 = () => {
                       <h5>opening hour</h5>
                     </div>
                     <ul>
-                   )
+                   
                       <li>
                       1:00 PM to 11:00 PM  <span>7 days a week</span>
                       </li>
-                      
+                      <li>
+                      Sunday <span>10am - 9pm</span>
+                      </li>
                     </ul>
                     <div className="any-question mt-20">
                       <h5>Have any questions?</h5>

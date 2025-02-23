@@ -24,13 +24,11 @@ const page = () => {
                 <span className="sub-title mb-35">
                   <i className="far fa-hamburger" /> Start price Only $25
                 </span>
-                <h1>delicious food near your town</h1>
+                <h2>Traditional British & Cuisine with a Modern Twist</h2>
                 <p>
-                  Welcome to our culinary sanctuary, where every dish tells a
-                  story every bite is an adventure at our food website, we
-                  invite
+                At our restaurant, we're passionate about serving up delicious, authentic British dishes with a contemporary flair. From hearty pub classics to elegant fine dining options, our menu is designed to showcase the best of British cuisine.
                 </p>
-                <Link href="menu-chicken" className="theme-btn">
+                <Link href="menu-restaurant" className="theme-btn">
                   View All Menu <i className="far fa-arrow-alt-right" />
                 </Link>
               </div>
@@ -42,7 +40,7 @@ const page = () => {
               data-aos-offset={50}
             >
               <div className="hero-images rmt-60">
-                <img src="assets/images/hero/hero-right.png" alt="Hero" />
+                <img src="assets/images/hero/home.png" alt="Hero" />
                 <div className="price">
                   <img src="assets/images/hero/price.png" alt="Hero" />
                 </div>
@@ -77,7 +75,22 @@ const page = () => {
             <span className="marquee-item">
               <i className="flaticon-star" />
             </span>
-            <span className="marquee-item">delicious foods</span>
+            <span className="marquee-item">Fish and Chips</span>
+            <span className="marquee-item">
+              <i className="flaticon-star" />
+            </span>
+            <span className="marquee-item">Stuffed portobello mushrooms vegetable curry</span>
+
+            <span className="marquee-item">
+              <i className="flaticon-star" />
+            </span>
+          </span>
+          <span className="marquee-inner left">
+            <span className="marquee-item">Roast Beef Sunday Lunch</span>
+            <span className="marquee-item">
+              <i className="flaticon-star" />
+            </span>
+            <span className="marquee-item">Full English Breakfast</span>
             <span className="marquee-item">
               <i className="flaticon-star" />
             </span>
@@ -91,21 +104,7 @@ const page = () => {
             <span className="marquee-item">
               <i className="flaticon-star" />
             </span>
-            <span className="marquee-item">delicious foods</span>
-            <span className="marquee-item">
-              <i className="flaticon-star" />
-            </span>
-            <span className="marquee-item">burger king</span>
-            <span className="marquee-item">
-              <i className="flaticon-star" />
-            </span>
-          </span>
-          <span className="marquee-inner left">
-            <span className="marquee-item">Italian pizza</span>
-            <span className="marquee-item">
-              <i className="flaticon-star" />
-            </span>
-            <span className="marquee-item">delicious foods</span>
+            <span className="marquee-item">Vegetarian Options</span>
             <span className="marquee-item">
               <i className="flaticon-star" />
             </span>
@@ -118,6 +117,9 @@ const page = () => {
         <div className="headline-shapes">
           <div className="shape one">
             <img src="assets/images/shapes/chillies.png" alt="Shape" />
+          </div>
+          <div className="shape two">
+            <img src="assets/images/shapes/tomato.png" alt="Shape" />
           </div>
           <div className="shape two">
             <img src="assets/images/shapes/tomato.png" alt="Shape" />
@@ -170,19 +172,17 @@ const page = () => {
                 data-aos-duration={1500}
               >
                 <div className="section-title mb-25">
-                  <span className="sub-title mb-5">learn About Wellfood.</span>
-                  <h2>the amazing &amp; Quality food for your good health</h2>
+                  <span className="sub-title mb-5">Taste the Tasty Food.</span>
+                  <h2>Book a Table</h2>
                 </div>
                 <p>
-                  Welcome too restaurant, where culinary excellence meets warm
-                  hospitality in every dish we serve. Nestled in the heart of
-                  City Name our eatery invites you on a journey
+                To make a reservation, please call us on  0141 611 3142 or book online through our website.
                 </p>
                 <div className="about-btn-author pt-5 mb-45">
-                  <Link href="about" className="theme-btn style-two">
+                  <Link href="contact" className="theme-btn style-two">
                     learn more us <i className="far fa-arrow-alt-right" />
                   </Link>
-                  <Link href="about" className="read-more">
+                  <Link href="menu-restaurant" className="read-more">
                     Explore popular menu{" "}
                     <i className="far fa-arrow-alt-right" />
                   </Link>
@@ -254,11 +254,10 @@ const page = () => {
                 <img src="assets/images/offer/delicious.png" alt="Image" />
                 <h2>Special deal offer for this week</h2>
                 <h3>
-                  grilled beef meat only <span>$59</span>
+                Roast Beef Sunday Lunch <span></span>
                 </h3>
                 <p>
-                  Restaurant, where culinary excellence meets warm hospitality
-                  in every dish we serve nestled in the heart of city
+                Slow-cooked roast beef with roasted vegetables, Yorkshire pudding, and gravy
                 </p>
                 <Link href="shop" className="theme-btn">
                   order now <i className="far fa-arrow-alt-right" />
@@ -286,7 +285,7 @@ const page = () => {
                 >
                   <span>
                     only <br />
-                    <span className="price">$59</span>
+                    <span className="price">$49</span>
                   </span>
                 </div>
               </div>
@@ -362,6 +361,7 @@ const page = () => {
         </div>
       </div>
       {/* Headline Area end */}
+
       {/* Popular Menu Area start */}
       <section className="popular-menu-area pt-105 rpt-85 pb-100 rpb-70 rel z-1">
         <div className="container">
@@ -375,7 +375,7 @@ const page = () => {
               >
                 <span className="sub-title mb-5">popular menu</span>
                 <h2>
-                  we provide exclusive food based on usa explore our popular
+                   explore our popular
                   food
                 </h2>
               </div>
@@ -388,77 +388,69 @@ const page = () => {
               data-aos-duration={1500}
               data-aos-offset={50}
             >
-              <div className="food-item">
-                <div className="content">
-                  <div className="name-desc">
-                    <h5>Red king Crab</h5>
-                    <p>Native to the icy waters of the Pacific</p>
-                  </div>
-                  <div className="price">
-                    <span>$25</span>
-                  </div>
-                </div>
-                <div className="image">
-                  <img src="assets/images/food/food1.png" alt="Food Image" />
-                </div>
-              </div>
-              <div className="food-item">
-                <div className="content">
-                  <div className="name-desc">
-                    <h5>Alaskan king Crab</h5>
-                    <p>Native to the icy waters of the Pacific</p>
-                  </div>
-                  <div className="price">
-                    <span>$10</span>
-                  </div>
-                </div>
-                <div className="image">
-                  <img src="assets/images/food/food1.png" alt="Food Image" />
-                </div>
-              </div>
-              <div className="food-item">
-                <div className="content">
-                  <div className="name-desc">
-                    <h5>Pizza</h5>
-                    <p>Native to the icy waters of the Pacific</p>
-                  </div>
-                  <div className="price">
-                    <span>$22</span>
-                  </div>
-                </div>
-                <div className="image">
-                  <img src="assets/images/food/food1.png" alt="Food Image" />
-                </div>
-              </div>
-              <div className="food-item">
-                <div className="content">
-                  <div className="name-desc">
-                    <h5>Hamburger</h5>
-                    <p>Native to the icy waters of the Pacific</p>
-                  </div>
-                  <div className="price">
-                    <span>$43</span>
-                  </div>
-                </div>
-                <div className="image">
-                  <img src="assets/images/food/food1.png" alt="Food Image" />
-                </div>
-              </div>
-              <div className="food-item mb-30">
-                <div className="content">
-                  <div className="name-desc">
-                    <h5>chicken soup</h5>
-                    <p>Native to the icy waters of the Pacific</p>
-                  </div>
-                  <div className="price">
-                    <span>$77</span>
-                  </div>
-                </div>
-                <div className="image">
-                  <img src="assets/images/food/food1.png" alt="Food Image" />
-                </div>
-              </div>
+             <div className="food-item">
+  <div className="content">
+    <div className="name-desc">
+      <h5>Fish and Chips</h5>
+      <p>Fresh cod in a crispy batter, served with chunky chips and mushy peas.</p>
+    </div>
+    <div className="price">
+      <span>$12</span>
+    </div>
+  </div>
+  <div className="image">
+    <img src="assets/images/food/fish.png" alt="Food Image" />
+  </div>
+</div>
+
+<div className="food-item">
+  <div className="content">
+    <div className="name-desc">
+      <h5>Roast Beef Sunday Lunch</h5>
+      <p>Slow-cooked roast beef with roasted vegetables.</p>
+    </div>
+    <div className="price">
+      <span>$15</span>
+    </div>
+  </div>
+  <div className="image">
+    <img src="assets/images/food/grill-menu.jpg" alt="Food Image" />
+  </div>
+</div>
+
+<div className="food-item">
+  <div className="content">
+    <div className="name-desc">
+      <h5>Full English Breakfast</h5>
+      <p>Bacon, sausages, eggs, grilled tomatoes, mushrooms, and toast.</p>
+    </div>
+    <div className="price">
+      <span>$10</span>
+    </div>
+  </div>
+  <div className="image">
+    <img src="assets/images/food/gm-food7.png" alt="Food Image" />
+  </div>
+</div>
+
+<div className="food-item">
+  <div className="content">
+    <div className="name-desc">
+      <h5>Vegetarian Options</h5>
+      <p>Stuffed portobello mushrooms, vegetable curry.</p>
+    </div>
+    <div className="price">
+      <span>$11</span>
+    </div>
+  </div>
+  <div className="image">
+    <img src="assets/images/food/burger-menu4.jpg" alt="Food Image" />
+  </div>
+</div>
+
+        
             </div>
+
             <div
               className="col-xl-4 col-lg-6 z-2"
               data-aos="fade-up"
@@ -477,7 +469,7 @@ const page = () => {
                   </div>
                 </div>
                 <div className="image">
-                  <img src="assets/images/food/food1.png" alt="Food Image" />
+                  <img src="assets/images/food/fish.png" alt="Food Image" />
                 </div>
               </div>
               <div className="food-item">
@@ -491,7 +483,7 @@ const page = () => {
                   </div>
                 </div>
                 <div className="image">
-                  <img src="assets/images/food/food1.png" alt="Food Image" />
+                  <img src="assets/images/food/fish.png" alt="Food Image" />
                 </div>
               </div>
               <div className="food-item">
@@ -505,7 +497,7 @@ const page = () => {
                   </div>
                 </div>
                 <div className="image">
-                  <img src="assets/images/food/food1.png" alt="Food Image" />
+                  <img src="assets/images/food/fish.png" alt="Food Image" />
                 </div>
               </div>
               <div className="food-item">
@@ -519,7 +511,7 @@ const page = () => {
                   </div>
                 </div>
                 <div className="image">
-                  <img src="assets/images/food/food1.png" alt="Food Image" />
+                  <img src="assets/images/food/fish.png" alt="Food Image" />
                 </div>
               </div>
               <div className="food-item mb-30">
@@ -533,7 +525,7 @@ const page = () => {
                   </div>
                 </div>
                 <div className="image">
-                  <img src="assets/images/food/food1.png" alt="Food Image" />
+                  <img src="assets/images/food/fish.png" alt="Food Image" />
                 </div>
               </div>
             </div>
@@ -555,7 +547,7 @@ const page = () => {
                   </div>
                 </div>
                 <div className="image">
-                  <img src="assets/images/food/food1.png" alt="Food Image" />
+                  <img src="assets/images/food/fish.png" alt="Food Image" />
                 </div>
               </div>
               <div className="food-item">
@@ -569,7 +561,7 @@ const page = () => {
                   </div>
                 </div>
                 <div className="image">
-                  <img src="assets/images/food/food1.png" alt="Food Image" />
+                  <img src="assets/images/food/fish.png" alt="Food Image" />
                 </div>
               </div>
               <div className="food-item">
@@ -583,7 +575,7 @@ const page = () => {
                   </div>
                 </div>
                 <div className="image">
-                  <img src="assets/images/food/food1.png" alt="Food Image" />
+                  <img src="assets/images/food/fish.png" alt="Food Image" />
                 </div>
               </div>
               <div className="food-item">
@@ -597,7 +589,7 @@ const page = () => {
                   </div>
                 </div>
                 <div className="image">
-                  <img src="assets/images/food/food1.png" alt="Food Image" />
+                  <img src="assets/images/food/fish.png" alt="Food Image" />
                 </div>
               </div>
               <div className="food-item mb-30">
@@ -611,13 +603,14 @@ const page = () => {
                   </div>
                 </div>
                 <div className="image">
-                  <img src="assets/images/food/food1.png" alt="Food Image" />
+                  <img src="assets/images/food/fish.png" alt="Food Image" />
                 </div>
               </div>
             </div>
           </div>
         </div>
       </section>
+      
       {/* Popular Menu Area end */}
       {/* Gallery Area Start */}
       <div className="gallery-area rel z-1">
@@ -634,8 +627,8 @@ const page = () => {
                   <img src="assets/images/gallery/gallery1.jpg" alt="Gallery" />
                 </div>
                 <div className="gallery-content">
-                  <h5>Spicy awesome pizza</h5>
-                  <span className="category">Burger, Hamburger</span>
+                  <h5>Juicy burger</h5>
+                  <span className="category">Burger</span>
                 </div>
               </div>
             </div>
@@ -651,8 +644,8 @@ const page = () => {
                   <img src="assets/images/gallery/gallery2.jpg" alt="Gallery" />
                 </div>
                 <div className="gallery-content">
-                  <h5>Spicy awesome pizza</h5>
-                  <span className="category">Burger, Hamburger</span>
+                  <h5>Spicy French Fries</h5>
+                  <span className="category">Fried</span>
                 </div>
               </div>
             </div>
@@ -669,7 +662,7 @@ const page = () => {
                 </div>
                 <div className="gallery-content">
                   <h5>Spicy awesome pizza</h5>
-                  <span className="category">Burger, Hamburger</span>
+                  <span className="category">Pizza</span>
                 </div>
               </div>
             </div>
@@ -723,7 +716,7 @@ const page = () => {
                       >
                         <Counter end={34} />
                       </span>
-                      <span className="counter-title">Organic Planting</span>
+                      <span className="counter-title">Review</span>
                     </div>
                   </div>
                   <div className="col-sm-4 col-6">
@@ -731,9 +724,9 @@ const page = () => {
                       <span
                         className="count-text plus"
                         data-speed={3000}
-                        data-stop={356}
+                        data-stop={20}
                       >
-                        <Counter end={356} />
+                        <Counter end={20} />
                       </span>
                       <span className="counter-title">Passionate Chef’s</span>
                     </div>
@@ -743,9 +736,9 @@ const page = () => {
                       <span
                         className="count-text plus"
                         data-speed={3000}
-                        data-stop={853}
+                        data-stop={53}
                       >
-                        <Counter end={853} />
+                        <Counter end={53} />
                       </span>
                       <span className="counter-title">Favourite Dishes</span>
                     </div>
@@ -767,21 +760,21 @@ const page = () => {
                       <i className="flaticon-recommended-food" />
                     </div>
                     <h4>
-                      <Link href="menu-burger">Best Quality Food</Link>
+                      <Link href="menu-burger">Sunday Roast</Link>
                     </h4>
                     <p>
-                      Sed ut perspiciatis unde omnis este natus sit voluptatem
-                    </p>
+                    Join us for a traditional Sunday roast with all the trimmings             
+                           </p>
                   </div>
                   <div className="service-item">
                     <div className="icon">
                       <i className="flaticon-fast-delivery" />
                     </div>
                     <h4>
-                      <Link href="menu-burger">fast food delivery</Link>
+                      <Link href="menu-burger">Quiz Night</Link>
                     </h4>
                     <p>
-                      Sed ut perspiciatis unde omnis este natus sit voluptatem
+                    Test your knowledge and win prizes on our weekly quiz night
                     </p>
                   </div>
                 </div>
@@ -797,10 +790,10 @@ const page = () => {
                       <i className="flaticon-cashback" />
                     </div>
                     <h4>
-                      <Link href="menu-burger">money back guarantee</Link>
+                      <Link href="menu-burger">Live Music</Link>
                     </h4>
                     <p>
-                      Sed ut perspiciatis unde omnis este natus sit voluptatem
+                    Enjoy live music performances from local musicians.
                     </p>
                   </div>
                   <div className="service-item">
@@ -811,7 +804,7 @@ const page = () => {
                       <Link href="menu-burger">100% natural food</Link>
                     </h4>
                     <p>
-                      Sed ut perspiciatis unde omnis este natus sit voluptatem
+                      Good Quality food is our priority, we use only the best
                     </p>
                   </div>
                 </div>
@@ -1089,142 +1082,7 @@ const page = () => {
       </section>
       {/* Dishes Area end */}
       {/* Blog Area start */}
-      <section className="blog-area pt-100 rpt-70 pb-90 rpb-60 rel z-1">
-        <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-lg-12">
-              <div
-                className="section-title text-center mb-50"
-                data-aos="fade-up"
-                data-aos-duration={1500}
-                data-aos-offset={50}
-              >
-                <span className="sub-title mb-5">latest news &amp; blog</span>
-                <h2>get every single updates latest</h2>
-              </div>
-            </div>
-          </div>
-          <div className="row justify-content-center">
-            <div className="col-xl-4 col-md-6">
-              <div
-                className="blog-item"
-                data-aos="fade-up"
-                data-aos-delay={50}
-                data-aos-duration={1500}
-                data-aos-offset={50}
-              >
-                <div className="image">
-                  <img src="assets/images/blog/blog1.jpg" alt="Blog" />
-                  <ul className="blog-meta">
-                    <li>
-                      <a href="#">Quality Food</a>
-                    </li>
-                    <li>
-                      <a href="#">March 25, 2024</a>
-                    </li>
-                    <li>
-                      <a href="#">comments (5)</a>
-                    </li>
-                  </ul>
-                </div>
-                <div className="content">
-                  <h4>
-                    <Link href="blog-details">
-                      Culinary Chronicles Exploring Gastronomic Wonders at
-                      foodking Restaurant
-                    </Link>
-                  </h4>
-                  <p>
-                    Restaurant where culinary excellence meets hospitality in
-                    every dish we serve settled in the heart
-                  </p>
-                  <Link href="blog-details" className="read-more">
-                    Read more <i className="far fa-arrow-alt-right" />
-                  </Link>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-4 col-md-6">
-              <div
-                className="blog-item"
-                data-aos="fade-up"
-                data-aos-delay={100}
-                data-aos-duration={1500}
-                data-aos-offset={50}
-              >
-                <div className="image">
-                  <img src="assets/images/blog/blog2.jpg" alt="Blog" />
-                  <ul className="blog-meta">
-                    <li>
-                      <a href="#">Quality Food</a>
-                    </li>
-                    <li>
-                      <a href="#">March 25, 2024</a>
-                    </li>
-                    <li>
-                      <a href="#">comments (5)</a>
-                    </li>
-                  </ul>
-                </div>
-                <div className="content">
-                  <h4>
-                    <Link href="blog-details">
-                      Culinary Chronicles Exploring Gastronomic Wonders at
-                      foodking Restaurant
-                    </Link>
-                  </h4>
-                  <p>
-                    Restaurant where culinary excellence meets hospitality in
-                    every dish we serve settled in the heart
-                  </p>
-                  <Link href="blog-details" className="read-more">
-                    Read more <i className="far fa-arrow-alt-right" />
-                  </Link>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-4 col-md-6">
-              <div
-                className="blog-item"
-                data-aos="fade-up"
-                data-aos-delay={150}
-                data-aos-duration={1500}
-                data-aos-offset={50}
-              >
-                <div className="image">
-                  <img src="assets/images/blog/blog3.jpg" alt="Blog" />
-                  <ul className="blog-meta">
-                    <li>
-                      <a href="#">Quality Food</a>
-                    </li>
-                    <li>
-                      <a href="#">March 25, 2024</a>
-                    </li>
-                    <li>
-                      <a href="#">comments (5)</a>
-                    </li>
-                  </ul>
-                </div>
-                <div className="content">
-                  <h4>
-                    <Link href="blog-details">
-                      Culinary Chronicles Exploring Gastronomic Wonders at
-                      foodking Restaurant
-                    </Link>
-                  </h4>
-                  <p>
-                    Restaurant where culinary excellence meets hospitality in
-                    every dish we serve settled in the heart
-                  </p>
-                  <Link href="blog-details" className="read-more">
-                    Read more <i className="far fa-arrow-alt-right" />
-                  </Link>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+ 
       {/* Blog Area end */}
     </WellFoodLayout>
   );

@@ -1,5 +1,5 @@
 {
-  "name": "Wellfood.",
+  "name": "Perth Crumpet",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -11,12 +11,13 @@
   "dependencies": {
     "aos": "^2.3.4",
     "isotope-layout": "^3.0.6",
-    "next": "14.2.4",
+    "next": "^15.2.0-canary.70",
     "react": "^18",
     "react-bootstrap": "^1.6.1",
     "react-circular-progressbar": "^2.1.0",
     "react-countup": "^6.5.3",
     "react-dom": "^18",
+    "react-intersection-observer": "^9.15.1",
     "react-nice-select": "^1.0.6",
     "react-player": "^2.16.0",
     "react-slick": "^0.30.2",

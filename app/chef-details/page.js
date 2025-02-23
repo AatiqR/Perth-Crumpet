@@ -89,9 +89,9 @@ const page = () => {
                     <span
                       className="count-text plus"
                       data-speed={3000}
-                      data-stop={356}
+                      data-stop={20}
                     >
-                      <Counter end={356} />
+                      <Counter end={20} />
                     </span>
                     <span className="counter-title">Awards Winning</span>
                   </div>

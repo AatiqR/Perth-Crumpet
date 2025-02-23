@@ -38,7 +38,7 @@ const AboutRight = () => {
               >
                 <Counter end={34} />
               </span>
-              <span className="counter-title">Organic Planting</span>
+              <span className="counter-title">Review</span>
             </div>
           </div>
           <div className="col-sm-4 col-6">
@@ -46,9 +46,9 @@ const AboutRight = () => {
               <span
                 className="count-text plus"
                 data-speed={3000}
-                data-stop={356}
+                data-stop={20}
               >
-                <Counter end={356} />
+                <Counter end={20} />
               </span>
               <span className="counter-title">Passionate Chef’s</span>
             </div>
@@ -58,9 +58,9 @@ const AboutRight = () => {
               <span
                 className="count-text plus"
                 data-speed={3000}
-                data-stop={8534}
+                data-stop={34}
               >
-                <Counter end={8534} />
+                <Counter end={34} />
               </span>
               <span className="counter-title">Favourite Dishes</span>
             </div>
@@ -165,14 +165,20 @@ export const AboutUs3 = ({
               data-aos-offset={50}
             >
               <div className="section-title mb-25">
-                <span className="sub-title mb-5">learn About wellfood</span>
-                <h2>we provide best Quality food for your health</h2>
+                <h2>Our story</h2>
               </div>
               <p>
-                Welcome too restaurant, where culinary excellence meets warm
-                hospitality in every dish we serve. Nestled in the heart of City
-                Name our eatery invites you on a journey
+              Welcome to our restaurant, where food, passion, and community come together.
+               Our story began with a simple idea: to share delicious, homemade-style
+               cuisine with our neighbors and friends.
               </p>
+              <h2>Our Vision</h2>
+              <p>
+              We aim to create a warm and inviting space where everyone feels at home. 
+              Our chefs are dedicated to crafting dishes that not only
+               taste amazing but also use only the freshest ingredients, sourced locally whenever possible.
+              </p>
+             
               <Link href="about" className="theme-btn mt-25 mb-60">
                 learn more us <i className="far fa-arrow-alt-right" />
               </Link>
@@ -186,7 +192,7 @@ export const AboutUs3 = ({
                     >
                       <Counter end={34} />
                     </span>
-                    <span className="counter-title">Organic Planting</span>
+                    <span className="counter-title">Reviews</span>
                   </div>
                 </div>
                 <div className="col-sm-4 col-6">
@@ -194,9 +200,9 @@ export const AboutUs3 = ({
                     <span
                       className="count-text plus"
                       data-speed={3000}
-                      data-stop={356}
+                      data-stop={20}
                     >
-                      <Counter end={356} />
+                      <Counter end={20} />
                     </span>
                     <span className="counter-title">Passionate Chef’s</span>
                   </div>
@@ -206,9 +212,9 @@ export const AboutUs3 = ({
                     <span
                       className="count-text plus"
                       data-speed={3000}
-                      data-stop={8534}
+                      data-stop={34}
                     >
-                      <Counter end={8534} />
+                      <Counter end={34} />
                     </span>
                     <span className="counter-title">Favourite Dishes</span>
                   </div>
@@ -240,7 +246,7 @@ export const AboutUs3 = ({
             </div>
           </div>
         </div>
-      </div>
+        </div>
     </section>
   );
 };
@@ -301,7 +307,7 @@ export const AboutUs4 = ({}) => {
                     >
                       <Counter end={34} />
                     </span>
-                    <span className="counter-title">Organic Planting</span>
+                    <span className="counter-title">Reviews</span>
                   </div>
                 </div>
                 <div className="col-sm-4 col-6">
@@ -309,9 +315,9 @@ export const AboutUs4 = ({}) => {
                     <span
                       className="count-text plus"
                       data-speed={3000}
-                      data-stop={356}
+                      data-stop={20}
                     >
-                      <Counter end={356} />
+                      <Counter end={20} />
                     </span>
                     <span className="counter-title">Passionate Chef’s</span>
                   </div>
@@ -321,9 +327,9 @@ export const AboutUs4 = ({}) => {
                     <span
                       className="count-text plus"
                       data-speed={3000}
-                      data-stop={8534}
+                      data-stop={34}
                     >
-                      <Counter end={8534} />
+                      <Counter end={34} />
                     </span>
                     <span className="counter-title">Favourite Dishes</span>
                   </div>

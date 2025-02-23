@@ -605,7 +605,7 @@ const page = () => {
                 data-aos-offset={50}
               >
                 <span className="sub-title mb-5">Why choose us</span>
-                <h2>We Offer quality service That Customers Needs</h2>
+                <h2>Our Values</h2>
               </div>
               <div
                 className="why-choose-carousel"

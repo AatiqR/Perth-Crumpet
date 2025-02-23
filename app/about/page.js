@@ -60,7 +60,7 @@ const page = () => {
       </section>
       {/* Booking Table Area end */}
       {/* Chefs Area start */}
-      <section className="chefs-area pt-130 rpt-100 pb-55 rpb-30 rel z-1">
+      {/* <section className="chefs-area pt-130 rpt-100 pb-55 rpb-30 rel z-1">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-xl-7 col-lg-9">
@@ -165,7 +165,7 @@ const page = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* Chefs Area end */}
       {/* Headline area start */}
       <div className="headline-area mb-105 rmb-85 rel z-1">

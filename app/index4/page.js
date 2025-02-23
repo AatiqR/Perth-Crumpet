@@ -139,7 +139,7 @@ const page = () => {
                       >
                         <Counter end={34} />
                       </span>
-                      <span className="counter-title">Organic Planting</span>
+                      <span className="counter-title">Reviews</span>
                     </div>
                   </div>
                   <div className="col-sm-4 col-6">
@@ -147,9 +147,9 @@ const page = () => {
                       <span
                         className="count-text plus"
                         data-speed={3000}
-                        data-stop={356}
+                        data-stop={20}
                       >
-                        <Counter end={356} />
+                        <Counter end={20} />
                       </span>
                       <span className="counter-title">Passionate Chef’s</span>
                     </div>
@@ -159,9 +159,9 @@ const page = () => {
                       <span
                         className="count-text plus"
                         data-speed={3000}
-                        data-stop={8534}
+                        data-stop={34}
                       >
-                        <Counter end={8534} />
+                        <Counter end={34} />
                       </span>
                       <span className="counter-title">Favourite Dishes</span>
                     </div>
