@@ -40,7 +40,7 @@ const page = () => {
               data-aos-offset={50}
             >
               <div className="hero-images rmt-60">
-                <img src="assets/images/hero/home.png" alt="Hero" />
+                <img src="assets/images/hero/home.png" alt="Hero" fetchPriority="high" loading="lazy" />
                 <div className="price">
                   <img src="assets/images/hero/price.png" alt="Hero" />
                 </div>
