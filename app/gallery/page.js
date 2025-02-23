@@ -1,9 +1,12 @@
+"use client";
 import PageBanner from "@/components/PageBanner";
 import WellFoodLayout from "@/layout/WellFoodLayout";
 import dynamic from "next/dynamic";
+
 const GalleryIsotope = dynamic(() => import("@/components/GalleryIsotope"), {
   ssr: false,
 });
+
 const page = () => {
   return (
     <WellFoodLayout>
@@ -29,4 +32,6 @@ const page = () => {
     </WellFoodLayout>
   );
 };
+
 export default page;
+
