@@ -73,8 +73,7 @@ const DefaultFooter = () => {
                   </Link>
                 </div>
                 <p>
-                  Temporibus autem quibusdam officiis aut rerum necessitatibus
-                  eveniet voluta repudiandae molestiae recusandae
+                At our restaurant, we're passionate about serving up delicious, authentic British dishes with a contemporary flair. From hearty pub classics to elegant fine dining options, our menu is designed to showcase the best of British cuisine.
                 </p>
                 <div className="social-style-one mt-15">
                   <Link href="contact">

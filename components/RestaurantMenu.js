@@ -387,7 +387,7 @@ const RestaurantMenu = ({ menus }) => {
           <Tab.Content className="food-menu-tab-content tab-content">
             {items.map((menu) => (
               <Tab.Pane
-                className="tab-pane fade"
+ className="tab-pane fade"
                 eventKey={menu.event}
                 key={menu.id}
               >
@@ -398,7 +398,9 @@ const RestaurantMenu = ({ menus }) => {
                     data-aos-duration={1500}
                     data-aos-offset={50}
                   >
-                    {menu.items.map((item, i) => i < 4 && <Item item={item} />)}
+                    {menu.items.map((item, i) => 
+                      i < 4 && <Item key={item.id} item={item} />
+                    )}
                   </div>
                   <div
                     className="col-lg-6 pb-30"
@@ -406,9 +408,8 @@ const RestaurantMenu = ({ menus }) => {
                     data-aos-duration={1500}
                     data-aos-offset={50}
                   >
-                    {" "}
                     {menu.items.map(
-                      (item, i) => i >= 4 && <Item item={item} />
+                      (item, i) => i >= 4 && <Item key={item.id} item={item} />
                     )}
                   </div>
                 </div>

@@ -12,7 +12,7 @@ const FoodCategory = () => {
               data-aos-duration={1500}
               data-aos-offset={50}
             >
-              <span className="sub-title mb-5">popular food category</span>
+              <span className="sub-title mb-5">Our Values</span>
               <h2>
                 we provide amazing &amp; Quality food for your good health
               </h2>
@@ -32,9 +32,9 @@ const FoodCategory = () => {
               </div>
               <div className="content">
                 <h4>
-                  <Link href="menu-restaurant">Best Quality Food</Link>
+                  <Link href="menu-restaurant">Quality</Link>
                 </h4>
-                <p>Sed ut perspiciatis unde omnis este natus sit voluptatem</p>
+                <p>We're committed to serving only the best.</p>
               </div>
             </div>
           </div>
@@ -51,9 +51,9 @@ const FoodCategory = () => {
               </div>
               <div className="content">
                 <h4>
-                  <Link href="menu-restaurant">fast food delivery</Link>
+                  <Link href="menu-restaurant">Community</Link>
                 </h4>
-                <p>Sed ut perspiciatis unde omnis este natus sit voluptatem</p>
+                <p>We believe in supporting local businesses and events</p>
               </div>
             </div>
           </div>
@@ -70,12 +70,13 @@ const FoodCategory = () => {
               </div>
               <div className="content">
                 <h4>
-                  <Link href="menu-restaurant">money back guarantee</Link>
+                  <Link href="menu-restaurant">Hospitality</Link>
                 </h4>
-                <p>Sed ut perspiciatis unde omnis este natus sit voluptatem</p>
+                <p>We believe in supporting local businesses and events</p>
               </div>
             </div>
           </div>
+          
         </div>
       </div>
     </section>

@@ -60,7 +60,7 @@ const page = () => {
       </section>
       {/* Booking Table Area end */}
       {/* Chefs Area start */}
-      {/* <section className="chefs-area pt-130 rpt-100 pb-55 rpb-30 rel z-1">
+      <section className="chefs-area pt-130 rpt-100 pb-55 rpb-30 rel z-1">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-xl-7 col-lg-9">
@@ -70,8 +70,8 @@ const page = () => {
                 data-aos-duration={1500}
                 data-aos-offset={50}
               >
-                <span className="sub-title mb-5">professional chefs</span>
-                <h2>we have professionals team member meet our expert chefs</h2>
+                <span className="sub-title mb-5">OUR PROFESSIONAL TEAM</span>
+                <h4>Meet our talented team of chefs, servers, and managers who work together to bring you an exceptional dining experience.</h4>
               </div>
             </div>
           </div>
@@ -165,7 +165,7 @@ const page = () => {
             </div>
           </div>
         </div>
-      </section> */}
+      </section>
       {/* Chefs Area end */}
       {/* Headline area start */}
       <div className="headline-area mb-105 rmb-85 rel z-1">
@@ -251,9 +251,12 @@ const page = () => {
                   the scope and complexity of the project.
                 </p>
                 <ul className="list-style-one pt-5 mb-30">
-                  <li>Testy and quality food</li>
-                  <li>Fast food delivery</li>
-                  <li>Awards winning restuarent</li>
+                  <li>Outdoor seating or patio dining</li>
+                  <li>Pet-friendly dining area</li>
+                  <li>Kids' menu or play area</li>
+                  <li>Happy hour or special deals</li>
+                 <li> Live music or entertainment</li>
+
                 </ul>
                 <Link href="shop" className="theme-btn style-two">
                   book now <i className="far fa-arrow-alt-right" />
@@ -284,9 +287,11 @@ const page = () => {
                   the scope and complexity of the project.
                 </p>
                 <ul className="list-style-one pt-5 mb-30">
-                  <li>Testy and quality food</li>
-                  <li>Fast food delivery</li>
-                  <li>Awards winning restuarent</li>
+                <li>Outdoor seating or patio dining</li>
+                  <li>Pet-friendly dining area</li>
+                  <li>Kids' menu or play area</li>
+                  <li>Happy hour or special deals</li>
+                 <li> Live music or entertainment</li>
                 </ul>
                 <Link href="shop" className="theme-btn style-two">
                   book now <i className="far fa-arrow-alt-right" />
@@ -317,9 +322,11 @@ const page = () => {
                   the scope and complexity of the project.
                 </p>
                 <ul className="list-style-one pt-5 mb-30">
-                  <li>Testy and quality food</li>
-                  <li>Fast food delivery</li>
-                  <li>Awards winning restuarent</li>
+                <li>Outdoor seating or patio dining</li>
+                  <li>Pet-friendly dining area</li>
+                  <li>Kids' menu or play area</li>
+                  <li>Happy hour or special deals</li>
+                 <li> Live music or entertainment</li>
                 </ul>
                 <Link href="shop" className="theme-btn style-two">
                   book now <i className="far fa-arrow-alt-right" />

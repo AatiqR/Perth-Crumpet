@@ -381,7 +381,9 @@ const page = () => {
               </div>
             </div>
           </div>
+
           <div className="row justify-content-center">
+            {/* 1st */}
             <div
               className="col-xl-4 col-lg-6 z-3"
               data-aos="fade-up"
@@ -402,7 +404,20 @@ const page = () => {
     <img src="assets/images/food/fish.png" alt="Food Image" />
   </div>
 </div>
-
+<div className="food-item">
+    <div className="content">
+      <div className="name-desc">
+        <h5>Trifle</h5>
+        <p>Layers of sponge cake, fruit, custard, and whipped cream.</p>
+      </div>
+      <div className="price">
+        <span>$10</span> {/* You can adjust the price */}
+      </div>
+    </div>
+    <div className="image">
+      <img src="assets/images/food/rm-food4.png" alt="Trifle" /> {/*Change to correct image path*/}
+    </div>
+  </div>
 <div className="food-item">
   <div className="content">
     <div className="name-desc">
@@ -447,170 +462,347 @@ const page = () => {
     <img src="assets/images/food/burger-menu4.jpg" alt="Food Image" />
   </div>
 </div>
-
+<div className="food-item">
+    <div className="content">
+      <div className="name-desc">
+        <h5> Newcastle Brown Ale</h5>
+        <p>A rich, malty ale from the north-east</p>
+      </div>
+      <div className="price">
+        <span>$12</span> {/* You can adjust the price */}
+      </div>
+    </div>
+    <div className="image">
+      <img src="assets/images/food/filter-food6.jpg"/> {/*Change to correct image path*/}
+    </div>
+  </div>
         
             </div>
+{/* 2nd */}
+<div
+  className="col-xl-4 col-lg-6 z-1"
+  data-aos="fade-up"
+  data-aos-delay={100}
+  data-aos-duration={1500}
+  data-aos-offset={50}
+>
+  {/* Dinner Items */}
+  <div className="food-item">
+    <div className="content">
+      <div className="name-desc">
+        <h5>Roast Beef</h5>
+        <p>Slow-cooked roast beef with roasted vegetables, Yorkshire pudding, and gravy.</p>
+      </div>
+      <div className="price">
+        <span>$30</span> {/* You can adjust the price */}
+      </div>
+    </div>
+    <div className="image">
+      <img src="assets/images/food/chicken-menu1.png" alt="Roast Beef" /> {/*Change to correct image path*/}
+    </div>
+  </div>
+  <div className="food-item">
+    <div className="content">
+      <div className="name-desc">
+        <h5>Eggs Benedict</h5>
+        <p>Poached eggs on toasted English muffins with smoked salmon and hollandaise sauce.</p>
+      </div>
+      <div className="price">
+        <span>$12</span>
+      </div>
+    </div>
+    <div className="image">
+      <img src="assets/images/food/chicken-menu1.png" alt="Lamb Shank" /> {/*Change to correct image path*/}
+    </div>
+  </div>
+  <div className="food-item">
+    <div className="content">
+      <div className="name-desc">
+        <h5>Lamb Shank</h5>
+        <p>Braised lamb shank with rosemary and garlic, served with roasted potatoes and carrots.</p>
+      </div>
+      <div className="price">
+        <span>$35</span> {/* You can adjust the price */}
+      </div>
+    </div>
+    <div className="image">
+      <img src="assets/images/food/burger-menu8.jpg" alt="Lamb Shank" /> {/*Change to correct image path*/}
+    </div>
+  </div>
 
-            <div
-              className="col-xl-4 col-lg-6 z-2"
-              data-aos="fade-up"
-              data-aos-delay={50}
-              data-aos-duration={1500}
-              data-aos-offset={50}
-            >
-              <div className="food-item">
-                <div className="content">
-                  <div className="name-desc">
-                    <h5>Red king Crab</h5>
-                    <p>Native to the icy waters of the Pacific</p>
-                  </div>
-                  <div className="price">
-                    <span>$25</span>
-                  </div>
-                </div>
-                <div className="image">
-                  <img src="assets/images/food/fish.png" alt="Food Image" />
-                </div>
-              </div>
-              <div className="food-item">
-                <div className="content">
-                  <div className="name-desc">
-                    <h5>Alaskan king Crab</h5>
-                    <p>Native to the icy waters of the Pacific</p>
-                  </div>
-                  <div className="price">
-                    <span>$10</span>
-                  </div>
-                </div>
-                <div className="image">
-                  <img src="assets/images/food/fish.png" alt="Food Image" />
-                </div>
-              </div>
-              <div className="food-item">
-                <div className="content">
-                  <div className="name-desc">
-                    <h5>Pizza</h5>
-                    <p>Native to the icy waters of the Pacific</p>
-                  </div>
-                  <div className="price">
-                    <span>$22</span>
-                  </div>
-                </div>
-                <div className="image">
-                  <img src="assets/images/food/fish.png" alt="Food Image" />
-                </div>
-              </div>
-              <div className="food-item">
-                <div className="content">
-                  <div className="name-desc">
-                    <h5>Hamburger</h5>
-                    <p>Native to the icy waters of the Pacific</p>
-                  </div>
-                  <div className="price">
-                    <span>$43</span>
-                  </div>
-                </div>
-                <div className="image">
-                  <img src="assets/images/food/fish.png" alt="Food Image" />
-                </div>
-              </div>
-              <div className="food-item mb-30">
-                <div className="content">
-                  <div className="name-desc">
-                    <h5>chicken soup</h5>
-                    <p>Native to the icy waters of the Pacific</p>
-                  </div>
-                  <div className="price">
-                    <span>$77</span>
-                  </div>
-                </div>
-                <div className="image">
-                  <img src="assets/images/food/fish.png" alt="Food Image" />
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-xl-4 col-lg-6 z-1"
-              data-aos="fade-up"
-              data-aos-delay={100}
-              data-aos-duration={1500}
-              data-aos-offset={50}
-            >
-              <div className="food-item">
-                <div className="content">
-                  <div className="name-desc">
-                    <h5>Red king Crab</h5>
-                    <p>Native to the icy waters of the Pacific</p>
-                  </div>
-                  <div className="price">
-                    <span>$25</span>
-                  </div>
-                </div>
-                <div className="image">
-                  <img src="assets/images/food/fish.png" alt="Food Image" />
-                </div>
-              </div>
-              <div className="food-item">
-                <div className="content">
-                  <div className="name-desc">
-                    <h5>Alaskan king Crab</h5>
-                    <p>Native to the icy waters of the Pacific</p>
-                  </div>
-                  <div className="price">
-                    <span>$10</span>
-                  </div>
-                </div>
-                <div className="image">
-                  <img src="assets/images/food/fish.png" alt="Food Image" />
-                </div>
-              </div>
-              <div className="food-item">
-                <div className="content">
-                  <div className="name-desc">
-                    <h5>Pizza</h5>
-                    <p>Native to the icy waters of the Pacific</p>
-                  </div>
-                  <div className="price">
-                    <span>$22</span>
-                  </div>
-                </div>
-                <div className="image">
-                  <img src="assets/images/food/fish.png" alt="Food Image" />
-                </div>
-              </div>
-              <div className="food-item">
-                <div className="content">
-                  <div className="name-desc">
-                    <h5>Hamburger</h5>
-                    <p>Native to the icy waters of the Pacific</p>
-                  </div>
-                  <div className="price">
-                    <span>$43</span>
-                  </div>
-                </div>
-                <div className="image">
-                  <img src="assets/images/food/fish.png" alt="Food Image" />
-                </div>
-              </div>
-              <div className="food-item mb-30">
-                <div className="content">
-                  <div className="name-desc">
-                    <h5>chicken soup</h5>
-                    <p>Native to the icy waters of the Pacific</p>
-                  </div>
-                  <div className="price">
-                    <span>$77</span>
-                  </div>
-                </div>
-                <div className="image">
-                  <img src="assets/images/food/fish.png" alt="Food Image" />
-                </div>
-              </div>
-            </div>
+  {/* Dessert Items */}
+  <div className="food-item">
+    <div className="content">
+      <div className="name-desc">
+        <h5>Sticky Toffee Pudding</h5>
+        <p>Warm sponge cake with sticky toffee sauce and vanilla ice cream.</p>
+      </div>
+      <div className="price">
+        <span>$12</span> {/* You can adjust the price */}
+      </div>
+    </div>
+    <div className="image">
+      <img src="assets/images/food/burger-menu8.jpg" alt="Sticky Toffee Pudding" /> {/*Change to correct image path*/}
+    </div>
+  </div>
+ 
+  <div className="food-item">
+    <div className="content">
+      <div className="name-desc">
+        <h5> Newcastle Brown Ale</h5>
+        <p>A rich, malty ale from the north-east</p>
+      </div>
+      <div className="price">
+        <span>$12</span> {/* You can adjust the price */}
+      </div>
+    </div>
+    <div className="image">
+      <img src="assets/images/food/filter-food2.jpg" /> {/*Change to correct image path*/}
+    </div>
+  </div>
+
+</div>
+         
+            {/* 3  */}
+          <div
+  className="col-xl-4 col-lg-6 z-2"
+  data-aos="fade-up"
+  data-aos-delay={50}
+  data-aos-duration={1500}
+  data-aos-offset={50}
+>
+
+ <div className="food-item">
+    <div className="content">
+      <div className="name-desc">
+        <h5>Pan-Seared Salmon</h5>
+        <p>Fresh salmon fillet, pan-seared and served with lemon butter and herbs.</p>
+      </div>
+      <div className="price">
+        <span>$28</span> {/* You can adjust the price */}
+      </div>
+    </div>
+    <div className="image">
+      <img src="assets/images/food/grill-menu1.jpg" alt="Pan-Seared Salmon" /> {/*Change to correct image path*/}
+    </div>
+  </div>
+  <div className="food-item">
+    <div className="content">
+      <div className="name-desc">
+        <h5>Avocado Toast</h5>
+        <p>Toasted sourdough with mashed avocado, cherry tomatoes.</p>
+      </div>
+      <div className="price">
+        <span>$10</span>
+      </div>
+    </div>
+    <div className="image">
+      <img src="assets/images/food/gm-food3.png" alt="Eccles Cakes" /> {/*Change to correct image path*/}
+    </div>
+  </div>
+  <div className="food-item">
+    <div className="content">
+      <div className="name-desc">
+        <h5>Eccles Cakes</h5>
+        <p>They're like little pies with sweet, dried fruit inside and a sugary top</p>
+      </div>
+      <div className="price">
+        <span>$8</span> {/* You can adjust the price */}
+      </div>
+    </div>
+    <div className="image">
+      <img src="assets/images/food/fm-five2.jpg" alt="Eccles Cakes" /> {/*Change to correct image path*/}
+    </div>
+  </div>
+  <div className="food-item">
+    <div className="content">
+      <div className="name-desc">
+        <h5>Ploughman's Lunch</h5>
+        <p>A selection of artisanal cheeses, bread, pickles, and chutneys.</p>
+      </div>
+      <div className="price">
+        <span>$14</span>
+      </div>
+    </div>
+    <div className="image">
+      <img src="assets/images/food/grill-menu6.jpg" alt="Eccles Cakes" /> {/*Change to correct image path*/}
+    </div>
+  </div>
+  <div className="food-item">
+    <div className="content">
+      <div className="name-desc">
+        <h5>London Pride</h5>
+        <p>A classic English bitter.</p>
+      </div>
+      <div className="price">
+        <span>$14</span>
+      </div>
+    </div>
+    <div className="image">
+      <img src="assets/images/food/filter-food4.jpg" /> {/*Change to correct image path*/}
+    </div>
+  </div>
+  <div className="food-item mb-30">
+    <div className="content">
+      <div className="name-desc">
+        <h5>Chicken and Mushroom Pie</h5>
+        <p>A hearty pie filled with chicken, mushrooms, and creamy sauce.</p>
+      </div>
+      <div className="price">
+        <span>$16</span>
+      </div>
+    </div>
+    <div className="image">
+      <img src="assets/images/food/grill-menu6.jpg" alt="Eccles Cakes" /> {/*Change to correct image path*/}
+    </div>
+  </div>
+
+ 
+</div>
+
+
+
+
           </div>
         </div>
       </section>
       
+
+      {/* Our Service  */}
+      {/* <section className="food-category-area pb-90 rpb-65 rel z-1">
+      <div className="container">
+        <div className="row justify-content-center">
+          <div className="col-xxl-6 col-xl-7 col-lg-9">
+            <div
+              className="section-title text-center mb-50"
+              data-aos="fade-up"
+              data-aos-duration={1500}
+              data-aos-offset={50}
+            >
+              <span className="sub-title mb-5">Our Values</span>
+              <h2>
+                we provide amazing &amp; Quality food for your good health
+              </h2>
+            </div>
+          </div>
+        </div>
+        <div className="row justify-content-center">
+          <div
+            className="col-xl-4 col-md-6"
+            data-aos="fade-up"
+            data-aos-duration={1500}
+            data-aos-offset={50}
+          >
+            <div className="featured-item">
+              <div className="icon">
+                <i className="flaticon-recommended-food" />
+              </div>
+              <div className="content">
+                <h4>
+                  <Link href="menu-restaurant">Quality</Link>
+                </h4>
+                <p>We're committed to serving only the best.</p>
+              </div>
+            </div>
+          </div>
+          <div
+            className="col-xl-4 col-md-6"
+            data-aos="fade-up"
+            data-aos-delay={50}
+            data-aos-duration={1500}
+            data-aos-offset={50}
+          >
+            <div className="featured-item">
+              <div className="icon">
+                <i className="flaticon-fast-delivery" />
+              </div>
+              <div className="content">
+                <h4>
+                  <Link href="menu-restaurant">Community</Link>
+                </h4>
+                <p>We believe in supporting local businesses and events</p>
+              </div>
+            </div>
+          </div>
+          <div
+            className="col-xl-4 col-md-6"
+            data-aos="fade-up"
+            data-aos-delay={100}
+            data-aos-duration={1500}
+            data-aos-offset={50}
+          >
+            <div className="featured-item">
+              <div className="icon">
+                <i className="flaticon-cashback" />
+              </div>
+              <div className="content">
+                <h4>
+                  <Link href="menu-restaurant">Hospitality</Link>
+                </h4>
+                <p>We believe in supporting local businesses and events</p>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section> */}
+
+<section className="food-category-area pb-90 rpb-65 rel z-1">
+  <div className="container">
+    <div className="row justify-content-center">
+      <div className="col-xxl-6 col-xl-7 col-lg-9">
+        <div
+          className="section-title text-center mb-50"
+          data-aos="fade-up"
+          data-aos-duration={1500}
+          data-aos-offset={50}
+        >
+          <span className="sub-title mb-5">Our Services</span>
+          <h2>We Provide Exceptional Services for Your Convenience</h2>
+        </div>
+      </div>
+    </div>
+    <div className="row justify-content-center">
+      {[
+        { title: "Online Ordering", desc: "Order your favorite dishes from home for delivery or pickup.", icon: "flaticon-recommended-food" },
+        { title: "Reservations", desc: "Book a table in advance for a smooth dining experience.", icon: "flaticon-fast-delivery" },
+        { title: "Takeout", desc: "Enjoy our delicious food from the comfort of your home.", icon: "flaticon-cashback" },
+        { title: "Delivery", desc: "Get our dishes delivered right to your doorstep.", icon: "flaticon-recommended-food" },
+        { title: "Catering", desc: "Let us handle the food for your next event or party.", icon: "flaticon-fast-delivery" },
+        { title: "Private Dining", desc: "Book our private room for special occasions.", icon: "flaticon-cashback" },
+        { title: "Events", desc: "Host your next event with us, and let us take care of the food.", icon: "flaticon-recommended-food" },
+        { title: "Loyalty Program", desc: "Join our program and earn rewards and discounts.", icon: "flaticon-fast-delivery" },
+        { title: "Gift Cards", desc: "Purchase gift cards for friends and family.", icon: "flaticon-cashback" },
+        { title: "Party Platters", desc: "Order large quantities of our dishes for your gathering.", icon: "flaticon-recommended-food" },
+        { title: "Meal Plans", desc: "Sign up for our meal plans and enjoy discounts.", icon: "flaticon-fast-delivery" },
+        { title: "Dietary Options", desc: "We offer gluten-free, vegan, and other options.", icon: "flaticon-cashback" }
+      ].map((service, index) => (
+        <div
+          key={index}
+          className="col-xl-4 col-md-6"
+          data-aos="fade-up"
+          data-aos-delay={index * 50}
+          data-aos-duration={1500}
+          data-aos-offset={50}
+        >
+          <div className="featured-item">
+            <div className="icon">
+              <i className={service.icon} />
+            </div>
+            <div className="content">
+              <h4>
+                <Link href="menu-restaurant">{service.title}</Link>
+              </h4>
+              <p>{service.desc}</p>
+            </div>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
       {/* Popular Menu Area end */}
       {/* Gallery Area Start */}
       <div className="gallery-area rel z-1">

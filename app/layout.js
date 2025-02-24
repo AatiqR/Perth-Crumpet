@@ -8,7 +8,7 @@ import "@css/slick.min.css";
 import "@css/style.css";
 import "./globals.css";
 export const metadata = {
-  title: "Wellfood. - The Tasty House",
+  title: "Perth Crumpet - The Tasty House",
   description: "The Tasty House",
 };
 

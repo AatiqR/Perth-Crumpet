@@ -13,7 +13,7 @@
     "isotope-layout": "^3.0.6",
     "next": "^15.2.0-canary.70",
     "react": "^18",
-    "react-bootstrap": "^1.6.1",
+    "react-bootstrap": "^2.10.9",
     "react-circular-progressbar": "^2.1.0",
     "react-countup": "^6.5.3",
     "react-dom": "^18",
@@ -21,6 +21,7 @@
     "react-nice-select": "^1.0.6",
     "react-player": "^2.16.0",
     "react-slick": "^0.30.2",
+    "react-transition-group": "^4.4.5",
     "react-visibility-sensor": "^5.1.1"
   }
 }

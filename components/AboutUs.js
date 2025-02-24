@@ -172,15 +172,23 @@ export const AboutUs3 = ({
                Our story began with a simple idea: to share delicious, homemade-style
                cuisine with our neighbors and friends.
               </p>
-              <h2>Our Vision</h2>
+              <h3>Our Vision</h3>
               <p>
               We aim to create a warm and inviting space where everyone feels at home. 
               Our chefs are dedicated to crafting dishes that not only
                taste amazing but also use only the freshest ingredients, sourced locally whenever possible.
               </p>
+              <h3>Our History</h3>
+              <p>
+              From our humble beginnings to our current location, learn about our journey and how we've grown.
+              </p>
+            <h3> Awards and Recognition</h3> 
+
+            <p>We're proud to have received [awards or recognition] for our efforts in providing excellent food and service.</p>
+              
              
-              <Link href="about" className="theme-btn mt-25 mb-60">
-                learn more us <i className="far fa-arrow-alt-right" />
+              <Link href="contact" className="theme-btn mt-25 mb-60">
+               Get in Touch <i className="far fa-arrow-alt-right" />
               </Link>
               <div className="row">
                 <div className="col-sm-4 col-6">
