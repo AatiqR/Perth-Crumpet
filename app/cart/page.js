@@ -149,7 +149,7 @@ const page = () => {
                   </tbody>
                 </table>
                 <Link
-                  href="checkout"
+                  href="contact"
                   className="theme-btn style-two mt-25 w-100"
                 >
                   Proceed to checkout
