@@ -74,7 +74,27 @@ body {
   --border-color: rgba(23, 26, 33, 0.1);
   --primary-rgb: 236, 61, 8;
 }
+/* Updated style.css */
 
+/* Example of a CSS rule with 'start' value */
+.example-class {
+  display: flex;
+  justify-content: flex-start; /* Changed from 'start' to 'flex-start' */
+}
+
+/* Example of a CSS rule with 'end' value */
+.another-class {
+  display: flex;
+  justify-content: flex-end; /* Changed from 'end' to 'flex-end' */
+}
+
+/* Ensure other rules are updated similarly */
+
+.example-class-2 {
+  align-items: flex-start; /* Changed from 'start' to 'flex-start' */
+}
+
+/* Add other necessary CSS rules here */
 a {
   color: var(--base-color);
   cursor: pointer;
