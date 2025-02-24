@@ -184,7 +184,7 @@ export const AboutUs3 = ({
               </p>
             <h3> Awards and Recognition</h3> 
 
-            <p>We're proud to have received [awards or recognition] for our efforts in providing excellent food and service.</p>
+            <p>We are proud to have received Most delicious food of the year for our efforts in providing excellent food and service.</p>
               
              
               <Link href="contact" className="theme-btn mt-25 mb-60">
